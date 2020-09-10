@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SayHello</title>
+    <link rel="stylesheet" href="say-hello.css">
+</head>
+<body>
+
+<div class="say-hello-form">
+    <div class="filler-text">Below this is the display field</div>
+    <div class="say-hello-display"> </div>
+    <div class="say-hello-keys">
+        <input type="text" id="name" name="name">
+        <button type="submit" id="submit-button" data-action="submit-name">Submit</button>
+        <button class="hello-world" data-action="display-hello">Hello</button>
+        <button class="pre-selected" id="name1" data-action="pre-input">John</button>
+        <button class="pre-selected" id="name2" data-action="pre-input">Victor</button>
+        <button class="pre-selected" id="name3" data-action="pre-input">Pau</button>
+        <button class="goodbye" data-action="say-GoodBye">sayGoodbye</button>
+        <button class="hello" data-action="say-Hello">sayHello</button>
+    </div>
+</div>    
+
+</body>
+    
+    <script src = 'say-hello.js'></script>
+
+</html>

@@ -1,0 +1,63 @@
+.say-hello-form{
+    margin: 0 auto;  /*up and down || left and right*/
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.filler-text{
+    background-color: #fff;
+    color: #222222;
+    font-size: 2.5;
+    padding: 0.5em 0.75em;
+    text-align: center;
+    
+    width: 100%;
+}
+
+.say-hello-display{
+    background-color: #222222;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.say-hello-keys{
+    background-color: #999;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;   
+    width: 100%;
+    
+
+}
+
+.say-hello-keys > * {
+    background-color: #fff;
+    padding: 0.5em 1.25em;
+    position: relative;
+    text-align: center;
+    
+    flex: 1;
+}
+
+Button {
+    transition-duration: 0.4s;
+    
+}
+  
+Button:hover {
+    background-color: black; /* Green */
+    color: white;
+}
+
+/*display: flex;
+remove float.
